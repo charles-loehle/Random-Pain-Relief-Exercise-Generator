@@ -3,6 +3,7 @@ import './App.css';
 import Output from './Components/Output';
 import Select from './Components/Controls/Select';
 import Text from './Components/Controls/Text';
+import Exercises from './exercises.json';
 import axios from 'axios';
 
 class App extends Component {
@@ -20,13 +21,17 @@ class App extends Component {
   }
 
   getSampleText() {
-    axios.get('https://baconipsum.com/api/?type=meat-and-filler&paras=' + this.state.paras + '&html=' + this.state.html)
-      .then((response) => {
-        this.setState({ text: response.data }, function () {
-          // console.log(this.state);
-        });
+    {
+      Exercises.map(exercise => {
+        console.log(exercise.title);
       })
-      .catch(err => console.log(err));
+    }
+    // axios.get('https://baconipsum.com/api/?type=meat-and-filler&paras=' + this.state.paras + '&html=' + this.state.html)
+    // this.setState({ text: response.data }, function () {
+    //   // console.log(this.state);
+    // });
+    // })
+    // .catch(err => console.log(err));
   }
 
   showHtml(x) {
@@ -42,7 +47,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Random Pain Relief Exercise Generator</h1>
+        <h1 className="text-center">Random Pain Relief Exercise Generator</h1>
         <hr />
         <form className="form-inline">
           <div className="form-group">
@@ -54,6 +59,7 @@ class App extends Component {
             <Select value={this.state.html} onChange={this.showHtml.bind(this)} />
           </div>
         </form>
+        <br />
         <Output value={this.state.text} />
       </div>
     );
