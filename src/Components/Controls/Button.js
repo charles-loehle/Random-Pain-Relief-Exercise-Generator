@@ -9,7 +9,8 @@ class Button extends Component {
     this.state = {
       id: '',
       title: '',
-      image: '',
+      image1: '',
+      image2: '',
       instructions: ''
     }
 
@@ -22,7 +23,8 @@ class Button extends Component {
     this.setState({
       id: Exercises[rand].id,
       title: Exercises[rand].title,
-      image: Exercises[rand].image,
+      image1: Exercises[rand].image1,
+      image2: Exercises[rand].image2,
       instructions: Exercises[rand].instructions
     });
   }
@@ -30,11 +32,21 @@ class Button extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.handleClick}>Click for random Exercises</button>
-        <div>
-          <p>{this.state.title}</p>
-          <img src={this.state.image} alt="" />
-          <p>{this.state.instructions}</p>
+        <button className="btn btn-lg btn-primary" onClick={this.handleClick}>Click for a random Exercise</button>
+        <div className="container">
+          <h2>{this.state.title}</h2>
+          {this.state.image2 ? (
+            <div>
+              <img className="img-thumbnail mb-2" src={this.state.image1} alt="" />
+              <img className="img-thumbnail mb-2" src={this.state.image2} alt="" />
+              <p>{this.state.instructions}</p>
+            </div>
+          ) : (
+              <div>
+                <img className="img-thumbnail mb-2" src={this.state.image1} alt="" />
+                <p>{this.state.instructions}</p>
+              </div>
+            )}
         </div>
       </div>
     )
