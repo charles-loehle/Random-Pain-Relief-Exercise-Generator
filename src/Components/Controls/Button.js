@@ -25,30 +25,42 @@ class Button extends Component {
       title: Exercises[rand].title,
       image1: Exercises[rand].image1,
       image2: Exercises[rand].image2,
-      instructions: Exercises[rand].instructions
+      instructionsTitle: Exercises[rand].instructionsTitle,
+      instructions: Exercises[rand].instructions,
+      purposeTitle: Exercises[rand].purposeTitle,
+      purpose: Exercises[rand].purpose,
+
     });
   }
 
   render() {
     return (
       <div>
-        <button className="btn btn-lg btn-primary" onClick={this.handleClick}>Click for a random Exercise</button>
-        <div className="container">
-          <h2>{this.state.title}</h2>
-          {this.state.image2 ? (
+        <div className="text-center">
+          <button className="btn btn-lg btn-primary" onClick={this.handleClick}>Click for a random Exercise</button>
+        </div>
+        <h3>{this.state.title}</h3>
+        {this.state.image2 ? (
+          <div>
+            <img className="img-thumbnail mb-2" src={this.state.image1} alt="" />
+            <img className="img-thumbnail mb-2" src={this.state.image2} alt="" />
+            <h4>Instructions</h4>
+            <p>{this.state.instructions}</p>
+            <h4>{this.state.purposeTitle}</h4>
+            <p>{this.state.purpose}</p>
+          </div>
+        ) : (
             <div>
               <img className="img-thumbnail mb-2" src={this.state.image1} alt="" />
-              <img className="img-thumbnail mb-2" src={this.state.image2} alt="" />
+              <h4>{this.state.instructionsTitle}</h4>
               <p>{this.state.instructions}</p>
+              <h4>{this.state.purposeTitle}</h4>
+              <p>{this.state.purpose}</p>
             </div>
-          ) : (
-              <div>
-                <img className="img-thumbnail mb-2" src={this.state.image1} alt="" />
-                <p>{this.state.instructions}</p>
-              </div>
-            )}
-        </div>
-      </div>
+          )}
+
+        {/* end main div */}
+      </div >
     )
   }
 }
