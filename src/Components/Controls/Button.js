@@ -14,10 +14,9 @@ class Button extends Component {
       instructions: ''
     }
 
-    this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {
+  handleClick = () => {
     var rand = Math.floor((Math.random() * Exercises.length));
     //console.log(Exercises[rand].image);
     this.setState({

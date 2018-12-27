@@ -1,3 +1,7 @@
 h2, h3 ,h4 {
   font-weight: 300;
 }
+
+div.container {
+  padding: 4rem 2rem;
+}
