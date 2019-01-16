@@ -1,7 +1,21 @@
+body {
+  font-size:.8rem;
+}
+
 h2, h3 ,h4 {
   font-weight: 300;
 }
-
+  
 div.container {
-  padding: 4rem 2rem;
+  padding: 1rem 2rem;
 }
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+ @media (max-width: 576px) {
+   .two-images .img-thumbnail {
+     width: 50%;
+   }
+ }

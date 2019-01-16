@@ -34,29 +34,45 @@ class Button extends Component {
 
   render() {
     return (
-      <div>
-        <div className="text-center">
-          <button className="btn btn-lg btn-primary" onClick={this.handleClick}>Click for a random Exercise</button>
-        </div>
+      <div className="row">
         <h3>{this.state.title}</h3>
         {this.state.image2 ? (
-          <div>
-            <img className="img-thumbnail mb-2" src={this.state.image1} alt="" />
-            <img className="img-thumbnail mb-2" src={this.state.image2} alt="" />
-            <h4>Instructions</h4>
-            <p>{this.state.instructions}</p>
-            <h4>{this.state.purposeTitle}</h4>
-            <p>{this.state.purpose}</p>
-          </div>
-        ) : (
-            <div>
+          <div className="row">
+
+            <div className=" two-images col-md-6">
               <img className="img-thumbnail mb-2" src={this.state.image1} alt="" />
+              <img className="img-thumbnail mb-2" src={this.state.image2} alt="" />
+            </div>
+
+
+
+            <div className="col-md-6">
               <h4>{this.state.instructionsTitle}</h4>
               <p>{this.state.instructions}</p>
               <h4>{this.state.purposeTitle}</h4>
               <p>{this.state.purpose}</p>
             </div>
+
+          </div>
+        ) : (
+            <div className="row">
+
+              <div className="one-image col-md-6 col-sm-8">
+                <img className="img-thumbnail mb-2 img-fluid" src={this.state.image1} alt="" />
+              </div>
+
+              <div className="col-md-6">
+                <h4>{this.state.instructionsTitle}</h4>
+                <p>{this.state.instructions}</p>
+                <h4>{this.state.purposeTitle}</h4>
+                <p>{this.state.purpose}</p>
+              </div>
+
+            </div>
           )}
+        <div className="text-center">
+          <button className="btn btn-lg btn-primary" onClick={this.handleClick}>Click for a random Exercise</button>
+        </div>
 
         {/* end main div */}
       </div >

@@ -1,6 +1,5 @@
 const exercises = [
   {
-    "id": 1,
     "title": "Abdominal Crunches",
     "image1": require("../images/abcrunches.png"),
     "instructionsTitle": "Instructions",
@@ -9,7 +8,6 @@ const exercises = [
     "purpose": "This exercise separates the work between the hip flexors and the trunk flexors, while promoting thoracic extension."
   },
   {
-    "id": 2,
     "title": "Abduction-Adduction w/ Feet Close",
     "image1": require("../images/abd-add-w-feet-close.png"),
     "instructionsTitle": "Instructions",
@@ -18,7 +16,6 @@ const exercises = [
     "purpose": "This exercise promotes pelvic stabilization through femur rotation."
   },
   {
-    "id": 3,
     "title": "Active Bridges w/ Strap",
     "image1": require("../images/active-bridge-w-strap.png"),
     "instructionsTitle": "Instructions",
@@ -27,7 +24,6 @@ const exercises = [
     "purpose": "This exercise promotes proper bilateral extension of pelvis and spine."
   },
   {
-    "id": 4,
     "title": "Airbench",
     "image1": require("../images/airbench.png"),
     "instructionsTitle": "Instructions",
@@ -36,7 +32,6 @@ const exercises = [
     "purpose": "Through this exercise, promotes proper function of the lower load joints while stabilizing the opposing pelvis."
   },
   {
-    "id": 5,
     "title": "Assisted Hip Lift",
     "image1": require("../images/assisted-hip-lift.png"),
     "instructionsTitle": "Instructions",
@@ -45,7 +40,6 @@ const exercises = [
     "purpose": "This exercise promotes bilateral pelvic stabilization through external femur rotation."
   },
   {
-    "id": 6,
     "title": "Cats & Dogs",
     "image1": require("../images/c&d1.png"),
     "image2": require("../images/c&d2.png"),
@@ -55,7 +49,6 @@ const exercises = [
     "purpose": "This exercise promotes bilateral spine flexion and extension while loading the shoulder and hip joints."
   },
   {
-    "id": 7,
     "title": "Child's Pose",
     "image1": require("../images/childspose.png"),
     "instructionsTitle": "Instructions",
@@ -64,7 +57,6 @@ const exercises = [
     "purpose": "This exercise promotes flexion of all the load joints and the spine."
   },
   {
-    "id": 8,
     "title": "Standing Arm Circles",
     "image1": require("../images/standing-arm-circles.png"),
     "image2": require("../images/standing-arm-circles-palms-up.png"),
@@ -74,7 +66,6 @@ const exercises = [
     "purpose": "This exercise promotes bilateral lumbar function through thoracic stabilization."
   },
   {
-    "id": 9,
     "title": "Standing Overhead Extension",
     "image1": require('../images/standing-ohe.png'),
     "instructionsTitle": "Instructions",
@@ -83,7 +74,7 @@ const exercises = [
     "purpose": "This exercise promotes proper positioning of the shoulder over the hip while engaging all of the extensor muscles of the spine"
   },
   {
-    "id": 10,
+
     "title": "3 Position Toe Raises",
     "image1": require("../images/3-pos-toe-raises-1.png"),
     "image2": require("../images/3-pos-toe-raises-2.png"),
