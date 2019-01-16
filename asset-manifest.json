@@ -1,9 +1,9 @@
 {
   "main.css": "/egoscue-app/static/css/main.3c8f6e7d.chunk.css",
-  "main.js": "/egoscue-app/static/js/main.6ace9ff1.chunk.js",
-  "main.js.map": "/egoscue-app/static/js/main.6ace9ff1.chunk.js.map",
-  "static/js/1.56635366.chunk.js": "/egoscue-app/static/js/1.56635366.chunk.js",
-  "static/js/1.56635366.chunk.js.map": "/egoscue-app/static/js/1.56635366.chunk.js.map",
+  "main.js": "/egoscue-app/static/js/main.c3f1387e.chunk.js",
+  "main.js.map": "/egoscue-app/static/js/main.c3f1387e.chunk.js.map",
+  "static/js/1.dbccf669.chunk.js": "/egoscue-app/static/js/1.dbccf669.chunk.js",
+  "static/js/1.dbccf669.chunk.js.map": "/egoscue-app/static/js/1.dbccf669.chunk.js.map",
   "runtime~main.js": "/egoscue-app/static/js/runtime~main.95b8c41a.js",
   "runtime~main.js.map": "/egoscue-app/static/js/runtime~main.95b8c41a.js.map",
   "static/media/3-pos-toe-raises-2.png": "/egoscue-app/static/media/3-pos-toe-raises-2.73fe472a.png",
@@ -21,6 +21,6 @@
   "static/media/abd-add-w-feet-close.png": "/egoscue-app/static/media/abd-add-w-feet-close.152a195f.png",
   "static/css/main.3c8f6e7d.chunk.css.map": "/egoscue-app/static/css/main.3c8f6e7d.chunk.css.map",
   "index.html": "/egoscue-app/index.html",
-  "precache-manifest.b9ff31e4c39534af9781e46b865857d8.js": "/egoscue-app/precache-manifest.b9ff31e4c39534af9781e46b865857d8.js",
+  "precache-manifest.7cb70825321571338c2eb1128ee0db40.js": "/egoscue-app/precache-manifest.7cb70825321571338c2eb1128ee0db40.js",
   "service-worker.js": "/egoscue-app/service-worker.js"
 }

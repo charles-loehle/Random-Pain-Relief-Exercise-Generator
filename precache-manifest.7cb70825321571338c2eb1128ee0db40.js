@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/egoscue-app/static/media/c&d1.4b968e31.png"
   },
   {
-    "revision": "6ace9ff18743361836fc",
+    "revision": "c3f1387e553e37ad4c6c",
     "url": "/egoscue-app/static/css/main.3c8f6e7d.chunk.css"
   },
   {
-    "revision": "56635366fa50ba40f2d9",
-    "url": "/egoscue-app/static/js/1.56635366.chunk.js"
+    "revision": "dbccf6698ae243a3a07f",
+    "url": "/egoscue-app/static/js/1.dbccf669.chunk.js"
   },
   {
     "revision": "95b8c41af2cd44c9cdbd",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/egoscue-app/static/media/assisted-hip-lift.dfea4391.png"
   },
   {
-    "revision": "6ace9ff18743361836fc",
-    "url": "/egoscue-app/static/js/main.6ace9ff1.chunk.js"
+    "revision": "c3f1387e553e37ad4c6c",
+    "url": "/egoscue-app/static/js/main.c3f1387e.chunk.js"
   },
   {
     "revision": "6568e781e45f4a3d4cfae5a0fdd93307",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/egoscue-app/static/media/3-pos-toe-raises-2.73fe472a.png"
   },
   {
-    "revision": "748b55fc7571e29d69b6270a7479d101",
+    "revision": "89cdf6b6282ba0d4eb90d2f1612fe774",
     "url": "/egoscue-app/index.html"
   }
 ];

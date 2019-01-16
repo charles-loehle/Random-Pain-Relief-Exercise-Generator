@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/egoscue-app/precache-manifest.b9ff31e4c39534af9781e46b865857d8.js"
+  "/egoscue-app/precache-manifest.7cb70825321571338c2eb1128ee0db40.js"
 );
 
 workbox.clientsClaim();
