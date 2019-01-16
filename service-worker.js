@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/egoscue-app/precache-manifest.7cb70825321571338c2eb1128ee0db40.js"
+  "/Random-Pain-Relief-Exercise-Generator/precache-manifest.d4337595502da34fe374302b1ae97f7f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/egoscue-app/index.html", {
+workbox.routing.registerNavigationRoute("/Random-Pain-Relief-Exercise-Generator/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
