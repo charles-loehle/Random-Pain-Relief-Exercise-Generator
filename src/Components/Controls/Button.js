@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-//import Exercises from '../../exercises.json';
 import Exercises from '../../data/data';
-//import picture from '../../images/standing-arm-circles.png';
 
 class Button extends Component {
   constructor(props) {
