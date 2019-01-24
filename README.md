@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with Reactjs and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## A Random Pain Relie Exercise Generator
 
