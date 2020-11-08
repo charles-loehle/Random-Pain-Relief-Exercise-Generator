@@ -4,5 +4,5 @@ This project was created with Reactjs and bootstrapped with [Create React App](h
 
 Back pain? Try it out! Click the button for a random exercise with instructions and helpful pictures.
 
-https://clguitar1.github.io/Random-Pain-Relief-Exercise-Generator/
+https://charles-loehle.github.io/Random-Pain-Relief-Exercise-Generator/#/
 
