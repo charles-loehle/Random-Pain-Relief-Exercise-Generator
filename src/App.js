@@ -1,20 +1,19 @@
-import React, { Component } from 'react'
-import './App.css'
-import { HashRouter, Route } from 'react-router-dom'
-import Home from './Components/Home'
-import Main from './Components/Main'
+import './css/base.css';
+import './css/flexbox.css';
+import React from 'react';
+import { HashRouter, Route } from 'react-router-dom';
+import Landing from './components/Landing';
+import Exercise from './components/Exercise';
 
-class App extends Component {
-  render() {
-    return (
-      <HashRouter>
-        <div>
-          <Route exact path='/' component={Home} />
-          <Route path='/main' component={Main} />
-        </div>
-      </HashRouter>
-    );
-  }
+function App() {
+  return (
+    <HashRouter>
+      <div className="App">
+        <Route exact path="/" component={Landing} />
+        <Route exact path="/main" component={Exercise} />
+      </div>
+    </HashRouter>
+  );
 }
 
 export default App;

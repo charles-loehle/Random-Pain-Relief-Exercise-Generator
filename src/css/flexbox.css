@@ -1,0 +1,32 @@
+/* ================================= 
+  Media Queries
+==================================== */
+
+/* 769px and above h1 and nav is displayed horizontally and .row divs are side by side */
+@media (min-width: 769px) {
+  .main-header,
+  .main-nav,
+  .row {
+    display: flex;
+  }
+  /*make the h1 and nav stack */
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* make columns equal widths inside the row */
+  .primary {
+    width: 30%;
+  }
+  .secondary {
+    width: 70%;
+  }
+}
+
+/*1025px and above h1 and nav are horizontal and the nav is pushed to the right */
+@media (min-width: 1025px) {
+  .main-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
