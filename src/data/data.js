@@ -2,7 +2,7 @@ import Airbench from '../images/airbench.png';
 import AbdominalCrunches from '../images/abcrunches.png';
 import ChildsPose from '../images/childspose.png';
 import StandingArmCircles from '../images/standing-arm-circles.png';
-import StandingArmCirclesPalmsUp from '../images/standing-arm-circles-palms-up.png';
+import StandingArmCirclesPalmsUp from '../images/std-arm-crc-p-up.png';
 import AbductionAdduction from '../images/abd-add-w-feet-close.png';
 import ActiveBridgesWithStrap from '../images/active-bridge-w-strap.png';
 import AssistedHipLift from '../images/assisted-hip-lift.png';

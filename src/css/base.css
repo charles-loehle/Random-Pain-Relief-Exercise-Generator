@@ -108,17 +108,9 @@ img {
   color: #fff;
   height: 100vh;
   background-position: 50% 50%;
-  background-image: url('../images/downward-dog-landing-cropped-tall.jpg');
+  background-image: url('../images/d-dog-landing-cropped.jpg');
   background-repeat: no-repeat;
 }
-
-/* .Exercise-banner {
-  color: #fff;
-  height: 138px;
-  background-position: 50% 84%;
-  background-image: url('../images/cobra-pose-banner.jpg');
-  background-repeat: no-repeat;
-} */
 
 .overlay {
   height: 100%;
