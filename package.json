@@ -2,7 +2,7 @@
   "name": "egoscue-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://clguitar1.github.io/Random-Pain-Relief-Exercise-Generator",
+  "homepage": "https://charles-loehle.github.io/Random-Pain-Relief-Exercise-Generator",
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
