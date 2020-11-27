@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://charles-loehle.github.io/Random-Pain-Relief-Exercise-Generator",
   "dependencies": {
-    "gh-pages": "^3.1.0",
+    "gh-pages": "2.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
